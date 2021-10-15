@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 int main(){
-    int m[64];
+    int m[16];
     int a, b;
 
-    printf("Enter your number less than 1023: ");
+    printf("Enter your number < 1024: ");
 
     scanf("%d", &b);
 
@@ -23,7 +23,7 @@ int main(){
         a++;
     }
     m[a]=b;
+    
     for(a;a>=0;a--) 
-
-    printf("%d", m[a]);
+        printf("%d", m[a]);
 }
