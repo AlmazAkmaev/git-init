@@ -4,11 +4,11 @@ int main(){
     int m[16];
     int a, b;
 
-    printf("Enter your number < 1024: ");
+    printf("Enter your number < 65 536: ");
 
     scanf("%d", &b);
 
-		if (b >= 1024){
+		if (b >= 65536) {
 		printf("Error: The entered number is too large!\n");
 		return 0;
 	}
